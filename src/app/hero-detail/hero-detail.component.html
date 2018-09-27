@@ -1,5 +1,15 @@
 <div *ngIf="hero">
   <h2>{{hero.name | uppercase}} Details</h2>
+  <div>
+    <label>
+      Hero name:
+      <input #heroName />
+    </label>
+    <!-- (click) passes input value to add() and then clears the input -->
+    <button (click)="add(heroName.value); heroName.value=''">
+      add
+    </button>
+  </div>
   <div><span>id: </span>{{hero.id}}</div>
   <div>
     <label>
