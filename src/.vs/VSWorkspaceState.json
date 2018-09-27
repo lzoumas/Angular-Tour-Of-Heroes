@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\app"
+    "\\app",
+    "\\app\\heroes"
   ],
-  "SelectedNode": "\\app\\hero.service.ts",
+  "SelectedNode": "\\app\\app.component.css",
   "PreviewInSolutionExplorer": false
 }
